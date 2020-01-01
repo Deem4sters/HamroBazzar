@@ -49,22 +49,27 @@ Button btnAgreed;
 
     btnAgreed.setOnClickListener(new View.OnClickListener() {
         @Override
+        //Validation for terms and condition
         public void onClick(View v) {
-            if (cbTerms.isChecked()){
-            startActivity(new Intent(getApplicationContext(),DashboardActivity.class));
+            if (cbTerms.isChecked()) {
+                        if (cbSafety.isChecked()){
+                            if (cbPosting.isChecked()) {
+                                startActivity(new Intent(getApplicationContext(), DashboardActivity.class));
+
+
+                            }
+                            else{
+                                Toast.makeText(MainActivity.this, "Please Read and agree all term and condition", Toast.LENGTH_SHORT).show();
+
+                            }
+
+
+
+                        }
+
             }
-             if (cbSafety.isChecked()){
-                startActivity(new Intent(getApplicationContext(),DashboardActivity.class));
-            }
-             if (cbPosting.isChecked()){
-                 startActivity(new Intent(getApplicationContext(),DashboardActivity.class));
-             }
-            else {
-                Toast.makeText(MainActivity.this, "Please Read and agree all term and condition", Toast.LENGTH_SHORT).show();
-            }
-        }
+                }
+
+
     });
-
-
-    }
-}
+    }}
