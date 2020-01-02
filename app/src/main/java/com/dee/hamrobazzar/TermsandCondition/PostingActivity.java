@@ -9,6 +9,7 @@ import com.dee.hamrobazzar.R;
 
 public class PostingActivity extends AppCompatActivity {
     WebView webView;
+    int o;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
