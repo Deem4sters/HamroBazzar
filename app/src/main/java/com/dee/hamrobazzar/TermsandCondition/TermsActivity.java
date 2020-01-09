@@ -10,30 +10,17 @@ import android.webkit.WebView;
 import com.dee.hamrobazzar.R;
 
 public class TermsActivity extends AppCompatActivity {
-WebView webView;
+    WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_terms);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        webView= findViewById(R.id.webView);
+
+        webView = findViewById(R.id.webView);
 
         webView.loadUrl("https://hamrobazaar.com/terms.html");
 
-    }
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                finish();
-                return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    public boolean onCreateOptionsMenu(Menu menu) {
-        return true;
     }
 }

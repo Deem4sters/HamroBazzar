@@ -1,33 +1,27 @@
 package com.dee.hamrobazzar.Model;
 
 public class User {
-    private String fullName;
     private String email;
+    private String fullname;
+    private String password;
+    private String conPassword;
+    private String phone;
+    private String mobile;
     private String address1;
     private String address2;
     private String address3;
-    private String phone;
-    private String mobilePhone;
-    private String password;
     private String image;
-    public User(String fullName, String email, String address1, String address2, String address3, String phone, String mobilePhone, String password, String image) {
-        this.fullName = fullName;
+    public User(String email, String fullname, String password, String conPassword, String phone, String mobile, String address1, String address2, String address3, String image) {
         this.email = email;
+        this.fullname = fullname;
+        this.password = password;
+        this.conPassword = conPassword;
+        this.phone = phone;
+        this.mobile = mobile;
         this.address1 = address1;
         this.address2 = address2;
         this.address3 = address3;
-        this.phone = phone;
-        this.mobilePhone = mobilePhone;
-        this.password = password;
         this.image = image;
-    }
-
-    public String getFullName() {
-        return fullName;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
     }
 
     public String getEmail() {
@@ -36,6 +30,46 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getFullname() {
+        return fullname;
+    }
+
+    public void setFullname(String fullname) {
+        this.fullname = fullname;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getConPassword() {
+        return conPassword;
+    }
+
+    public void setConPassword(String conPassword) {
+        this.conPassword = conPassword;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
     }
 
     public String getAddress1() {
@@ -60,30 +94,6 @@ public class User {
 
     public void setAddress3(String address3) {
         this.address3 = address3;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getMobilePhone() {
-        return mobilePhone;
-    }
-
-    public void setMobilePhone(String mobilePhone) {
-        this.mobilePhone = mobilePhone;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
     }
 
     public String getImage() {

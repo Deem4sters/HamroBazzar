@@ -1,6 +1,7 @@
 package com.dee.hamrobazzar.ServerResponse;
 
 public class RegisterResponse {
+
     private String status;
     private String token;
 
@@ -24,4 +25,5 @@ public class RegisterResponse {
     public void setToken(String token) {
         this.token = token;
     }
+
 }
