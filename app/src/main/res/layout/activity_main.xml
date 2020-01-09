@@ -46,46 +46,51 @@
         />
     <CheckBox
         android:id="@+id/cbTerms"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="courier"
+        android:textColor="#ffffff"
         android:layout_marginTop="20dp"
         android:textSize="20dp"
-        android:background="#bfb8b8"
+        android:background="#C8C8C8"
         android:layout_gravity="center"
         android:text="Click to view Terms of Use" />
 
     <CheckBox
         android:id="@+id/cbSafety"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="21dp"
-        android:background="#bfb8b8"
-        android:layout_marginTop="15dp"
         android:fontFamily="courier"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#C8C8C8"
         android:layout_gravity="center"
         android:text="Click to view Safety Tips" />
+
     <CheckBox
         android:id="@+id/cbPosting"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:fontFamily="courier"
-        android:background="#bfb8b8"
-        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#C8C8C8"
         android:layout_gravity="center"
-        android:text="Click to view Ad Posting Rule" />
+        android:text="Click to view Ad posting Rule" />
 
-<Button
-    android:id="@+id/btnAgreed"
-    android:layout_width="350dp"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="20dp"
-    android:textColor="#ffffff"
-    android:layout_gravity="center"
-    android:background="#42c8f5"
-    android:text="I have read and agree to above terms"
-    />
+    <Button
+        android:id="@+id/btnAgreed"
+        android:layout_width="300dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="I have read &amp; agree to above terms"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:background="#2BACCF"/>/>
 
 
 </LinearLayout>
