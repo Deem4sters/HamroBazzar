@@ -118,20 +118,6 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-146dp"
         tools:layout_editor_absoluteY="0dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="296dp"
-        android:textSize="17dp"
-        android:text="More"
-        android:background="@color/colorBluess"
-        app:layout_constraintStart_toStartOf="@+id/tv"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

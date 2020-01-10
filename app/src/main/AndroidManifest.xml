@@ -18,9 +18,9 @@
         <activity android:name=".TermsandCondition.PostingActivity" />
         <activity android:name=".TermsandCondition.SafetyActivity" />
         <activity android:name=".TermsandCondition.TermsActivity" />
-        <activity android:name=".SplashActivity" />
+        <activity android:name=".DashboardActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".DashboardActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
