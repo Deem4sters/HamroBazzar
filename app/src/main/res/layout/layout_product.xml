@@ -13,7 +13,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/customer_recycler"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4">
+        app:layout_constraintTop_toBottomOf="@+id/tvfour">
 
         <TextView
             android:id="@+id/tvName"
